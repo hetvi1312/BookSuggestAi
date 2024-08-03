@@ -8,3 +8,4 @@ past likes. By integrating these methods, BookSuggestAI offers personalized and 
 suggestions, adapting to both new and experienced users. This dynamic approach ensures that
 recommendations evolve with changing tastes, enhancing the reading experience and effectively
 matching books to diverse preferences.
+![Alt text](https://raw.githubusercontent.com/hetvi1312/Booksuggestai/main/Screenshot%202024-08-03%20203131.png)
