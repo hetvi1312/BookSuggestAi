@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BooKSuggestAi</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+         .text-white {
+            color: white;
+        }
+        .navbar {
+            background-color: #f4eeee; /* light cream color */
+        }
+        .navbar-brand {
+            color: #0000ff !important; /* blue color */
+            margin-left: 35px;
+
+        }
+        .nav > li > a {
+                margin-right: 50px;
+            color: #000000 !important; /* black color for links */
+        }
+        .nav > li.active > a {
+
+            color: #0000ff !important; /* white text color for active link */
+        }
+        .card-img-top {
+            width: 50%; /* Ensure the image fits 50% of the card */
+            height: auto;
+        }
+        .footer {
+            background-color: #f4eeee; /* light cream color */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .section-content {
+            margin-top: 20px;
+
+            padding: 20px;
+            border-radius: 5px;
+
+            animation: fadeIn 1s ease-in-out; /* Animation for fade-in effect */
+        }
+        .section-header {
+            margin-bottom: 20px;
+            color: #00a65a;
+            animation: slideIn 1s ease-in-out; /* Animation for slide-in effect */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-30px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-right">BooKSuggestAi</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="/">Home</a></li>
+                <li ><a href="/recommend">Recommend</a></li>
+                <li class="active"><a href="/about">about</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section-content" style="margin-top:50px;font-family: auto;">
+            <h1 class="section-header">About BooKSuggestAi</h1>
+            <p style="font-size:22px;font-family: auto;">BooKSuggestAi is an advanced book recommendation system designed to help users discover new books tailored to their interests. Our platform leverages sophisticated algorithms to analyze user preferences and provide personalized book recommendations.</p>
+
+            <h2 class="section-header">How BooKSuggestAi Works</h2>
+            <p style="font-size:22px;font-family: auto;">The process of recommending books is straightforward yet effective:</p>
+            <ol style="font-size:22px;font-family: auto;">
+                <li><strong>Input Collection:</strong> Users input the name of a book or a topic they are interested in.</li>
+                <li><strong>Data Analysis:</strong> Our system analyzes the input against a comprehensive database of books and authors.</li>
+                <li><strong>Recommendation Generation:</strong> Based on the analysis, BooKSuggestAi generates a curated list of book recommendations that match the user's interests.</li>
+                <li><strong>Results Display:</strong> The recommended books are presented with details such as title, author, and cover image.</li>
+            </ol>
+
+            <h2 class="section-header">Features</h2>
+            <ul style="font-size:22px;font-family: auto;">
+                <li><strong>Personalized Recommendations:</strong> Tailored book suggestions based on user input.</li>
+                <li><strong>Comprehensive Database:</strong> Access to a vast collection of books and authors.</li>
+                <li><strong>Easy-to-Use Interface:</strong> Simple and intuitive interface for seamless user experience.</li>
+                <li><strong>Real-Time Updates:</strong> The system updates recommendations based on the latest data and user input.</li>
+            </ul>
+
+            <h2 class="section-header">Advantages</h2>
+            <ul style="font-size:22px;font-family: auto;">
+                <li><strong>Enhanced Discovery:</strong> Helps users discover books they might not find on their own.</li>
+                <li><strong>Time-Saving:</strong> Quickly provides relevant book suggestions without extensive searching.</li>
+                <li><strong>Accuracy:</strong> Uses sophisticated algorithms to ensure high-quality recommendations.</li>
+                <li><strong>User-Friendly:</strong> Designed with a focus on ease of use and accessibility for all users.</li>
+            </ul>
+        </div>
+    </div>
+<br/>
+    <br/>
+    <br/>
+    <div class="footer">
+        <p>&copy; 2024 BooKSuggestAi. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
